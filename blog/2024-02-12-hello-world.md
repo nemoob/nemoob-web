@@ -1,7 +1,7 @@
 ---
 slug: hello-world
 title: 欢迎来到思维工坊
-authors: [nemoob]
+authors: [masterY]
 tags: [hello, docusaurus]
 ---
 
