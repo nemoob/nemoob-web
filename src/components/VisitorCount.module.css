@@ -1,0 +1,15 @@
+.visitorCount {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-gray-600);
+}
+
+.separator {
+  margin: 0 1rem;
+  color: var(--ifm-color-gray-500);
+}
+
+[data-theme='dark'] .visitorCount {
+  color: var(--ifm-color-gray-400);
+} 

@@ -1,0 +1,49 @@
+.visitStats {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--ifm-footer-background-color);
+  color: var(--ifm-footer-color);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: -1px;  /* 避免与页脚之间出现缝隙 */
+}
+
+.visitStats span {
+  display: inline-flex;
+  align-items: center;
+}
+
+.separator {
+  color: var(--ifm-footer-color);
+  opacity: 0.3;
+}
+
+.label {
+  color: var(--ifm-footer-color);
+  opacity: 0.7;
+  margin-right: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.count {
+  color: var(--ifm-footer-title-color);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+/* 暗色主题适配 */
+[data-theme='dark'] .visitStats {
+  border-top-color: var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .label {
+  color: var(--ifm-footer-color);
+  opacity: 0.8;
+}
+
+[data-theme='dark'] .count {
+  color: var(--ifm-color-primary-lighter);
+}
