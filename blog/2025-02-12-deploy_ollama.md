@@ -1,5 +1,5 @@
 ---
-slug: ollama_deploy
+slug: ollama_deploy.html
 title: 小白本地也可以部署大模型！
 authors: [masterY]
 tags: [ollama, deploy]

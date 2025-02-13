@@ -1,5 +1,5 @@
 ---
-slug: springai_ollama_01
+slug: springai_ollama.html
 title: SpringAI 接入 ollama（一）
 authors: [masterY]
 tags: [ollama, springai]
