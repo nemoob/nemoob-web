@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '思维工坊 AI 社区',
-  tagline: '思维工坊是一个专注于 AI 技术的社区，旨在为开发者、研究者和爱好者提供一个边干边学的实践平台。在这里，我们不仅分享前沿的 AI 发展趋势，还通过实际项目、开源实践和技术讨论，提升应用能力。',
+  tagline: '这里，分享前沿的 AI 发展趋势。',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -123,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 思维工坊. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 思维工坊. 合作人微信号：nemoob.`,
       },
       prism: {
         theme: prismThemes.github,
