@@ -147,6 +147,14 @@ SpringAI 是 Spring 社区推出的一个用于构建 AI 应用的框架，它�
    }
    ```
 
+   ```properties
+   # Spring Boot application properties
+   spring.ai.ollama.base-url=http://localhost:11434
+   spring.ai.ollama.chat.options.model=codellama:13b-instruct
+   # Other configurations can be added as needed
+   ```
+
+
 5. **运行应用**：
    在项目根目录下，运行以下命令以启动应用：
    ```sh
