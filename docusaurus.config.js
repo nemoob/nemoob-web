@@ -95,7 +95,7 @@ const config = {
             title: '文档',
             items: [
               {
-                label: '教程',
+                label: '文档',
                 to: '/docs/intro',
               },
             ],
@@ -103,10 +103,10 @@ const config = {
           {
             title: '社区',
             items: [
-              {
-                label: '讨论区',
-                href: 'https://github.com/nemoob/nemoob-web/discussions',
-              },
+              // {
+              //   label: '讨论区',
+              //   href: 'https://github.com/nemoob/nemoob-web/discussions',
+              // },
             ],
           },
           {
@@ -114,7 +114,7 @@ const config = {
             items: [
               {
                 label: '博客',
-                to: '/blog',
+                to: '/blog-archive',
               },
               {
                 label: 'GitHub',
