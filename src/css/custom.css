@@ -46,3 +46,13 @@
 [data-theme='dark'] .visit-stats {
   border-top-color: var(--ifm-color-gray-800);
 }
+
+.text--large {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 1.5rem 0;
+}
+
+.margin-top--lg {
+  margin-top: 3rem;
+}

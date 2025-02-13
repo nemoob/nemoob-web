@@ -48,6 +48,12 @@ const config = {
         blog: {
           showReadingTime: true,
           editUrl: 'https://github.com/nemoob/nemoob-web/tree/main/',
+          blogTitle: '思维工坊博客',
+          blogSidebarTitle: '最新文章',
+          blogSidebarCount: 5,
+          postsPerPage: 10,
+          routeBasePath: 'blog',
+          path: 'blog',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -74,7 +80,7 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          {to: '/blog', label: '博客', position: 'left'},
+          {to: '/blog-archive', label: '博客', position: 'left'},
           {
             href: 'https://github.com/nemoob',
             label: 'GitHub',
