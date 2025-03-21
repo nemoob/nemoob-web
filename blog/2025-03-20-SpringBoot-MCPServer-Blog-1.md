@@ -686,6 +686,3 @@ spec:
 - [DJL (Deep Java Library)](https://djl.ai/)
 - [Spring Security参考指南](https://docs.spring.io/spring-security/site/docs/5.2.x/reference/html5/)
 
-
-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
-
